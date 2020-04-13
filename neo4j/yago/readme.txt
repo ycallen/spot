@@ -1,6 +1,7 @@
 In this module I prepare the information in yago 3.1 for ingestion into neo4j. 
 I use the NSMNTX plugin written by Jesús Barrasa (https://github.com/neo4j-labs/neosemantics)
 I am currently using Neosemantics Release 3.5.0.4 for Neo4j 3.5.x
+The plugin command i use is -  CALL semantics.importRDF("file:////C://yago//manipulation//neo4j//test.ttl","Turtle", {typesToLabels: false, handleMultival: 'ARRAY', keepLangTag: true,  keepCustomDataTypes: true}) 
 
 1. python - A pycharm project that includes 2 files :
 	
