@@ -1,0 +1,3 @@
+#put inplace file according to condition
+#this is for lines where there is a \\ in a line, that jena doesn't know how to deal with
+sed -i 's/.*\\\\/#yuda &/' yyy
